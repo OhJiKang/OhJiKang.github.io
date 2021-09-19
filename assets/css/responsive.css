@@ -1,0 +1,78 @@
+/* Mobile */
+@media(max-width:739px){
+    .res-col-full{
+        width:100%;
+        }
+.res-mt-16{
+margin-bottom: 16px;
+}
+.res-full-width{
+    width: 100%;
+}
+#nav > li{
+        display:block;
+    }
+
+#header{
+/* Trên Mobile khi muốn ẩn phần dư ra mà ko ôm thì dùng này */
+overflow: hidden;
+}
+#header .search-button{
+    display: none;
+}
+#nav
+{display:block;}
+#header .mobile-menu{
+    display:block;
+}
+#nav >li:first-child{
+    display: inline-block;
+}
+#nav li a{
+    padding:1 24px;
+}
+#nav .subnav{
+    position: initial;    
+    color: white;
+}
+#nav .subnav a{
+    color:white;
+}
+#nav li:hover .subnav{
+    display:grid;
+    background-color:black;
+}
+#nav > li:hover > a{
+    color:white;
+}
+#contain .member-res{
+width:100%;
+}
+#contain .member-img{
+width:60%;
+margin-bottom: 31px;
+}
+}
+/* PC */
+@media(min-width:1024px){
+#header .mobile-menu{
+    display:none;
+}}
+/* Tablet và Mobile */
+@media(max-width:1024px){
+    .social-media{
+font-size: 48px;
+    }
+.social-media a{
+padding:0 8px;
+    }
+}
+.contact-content{
+    line-height:2;
+    }
+/* Tablet */
+@media(min-width:740px) and (max-width:1023px){
+#header .mobile-menu{
+    display:none;
+}
+}
